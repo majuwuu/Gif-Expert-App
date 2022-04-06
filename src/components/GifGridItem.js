@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const GifGridItem = ( img ) => {
-    console.log(img)
+export const GifGridItem = ( props ) => {
+    console.log(props.img)
   return (
     <div>
-        {img.title}
+        {/* {img.title} */}
     </div>
   )
 }
